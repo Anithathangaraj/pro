@@ -1,11 +1,12 @@
 import java.util.*;
-public class Co1
+public class Main
 {
 	public static void main(String[] args) {
 		Scanner k=new Scanner(System.in);
-		String s=k.next();
-		StringBuffer sb=new StringBuffer(s);
-		String r=(sb.reverse()).toString();
-		System.out.print(r);
+int s=k.nextInt();int fact=1;
+		for(int i=1;i<=s;i++){
+		    fact=fact*i;
+		}
+		System.out.print(fact);
 	}
 }
